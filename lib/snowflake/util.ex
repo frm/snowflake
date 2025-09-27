@@ -7,7 +7,7 @@ defmodule Snowflake.Util do
   - Creating buckets based on days since epoch...
   - get real timestamp of any ID
   """
-  use Bitwise
+  import Bitwise
 
   @doc """
   Returns the timestamp in millis. Uses `System.os_time/1`.
